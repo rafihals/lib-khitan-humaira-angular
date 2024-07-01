@@ -1,0 +1,7 @@
+{
+  "name": "lib-khitan-humaira-angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
