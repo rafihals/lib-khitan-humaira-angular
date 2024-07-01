@@ -1,4 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 * {
     padding: 0;
     margin: 0;
@@ -36,8 +37,9 @@ footer {
 
 @media (max-height:800px) {
     footer {
-        position: static;
+        position: fixed;
     }
+
     header {
         padding-top: 40px;
     }
@@ -53,7 +55,9 @@ footer {
     margin-top: 80px;
 }
 
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
     display: inline-block;
     vertical-align: top;
 }
@@ -190,16 +194,17 @@ footer {
 }
 
 @media (max-width: 880px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
         display: block;
         width: 100%;
         margin-bottom: 40px;
         text-align: center;
     }
+
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
-}       
-        
-
-        
+}

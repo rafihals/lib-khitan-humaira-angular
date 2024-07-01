@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { XFooterComponent } from './x-footer.component';
+import { LandingPage } from './landing.page';
 
-describe('XFooterComponent', () => {
-  let component: XFooterComponent;
-  let fixture: ComponentFixture<XFooterComponent>;
+describe('LandingPage', () => {
+  let component: LandingPage;
+  let fixture: ComponentFixture<LandingPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ XFooterComponent ],
+      declarations: [ LandingPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(XFooterComponent);
+    fixture = TestBed.createComponent(LandingPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
